@@ -16,3 +16,4 @@ possible improvements:
 * UI 
 * translation to English (now German)
 * more unit tests (there are never enough!)
+* and of course COMMENTS
