@@ -19,18 +19,7 @@ namespace mastermind2
             bool wehaveawinner = false;
             while (round <= toWin && !wehaveawinner)
             {
-                round++;
-                // Console.Write($"Runde {round:D3}: ");
-                // var guess = Console.ReadLine();
-
-                // if(!int.TryParse(guess, out int guessedNumber) || guess.Length != mm.DigitsPerNumber)
-                // {
-                //     Console.WriteLine("ungültige Eingabe");
-                //     round--;
-                //     continue;
-                // }
-
-                wehaveawinner = mm.GetGuess(round);
+                wehaveawinner = mm.GetGuess(round++);
             }
 
             if(wehaveawinner)
